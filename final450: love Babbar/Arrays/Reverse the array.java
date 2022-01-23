@@ -6,6 +6,7 @@
     Time complexity: O(n)
     no additional space required
     */
+class Solution {
 public static void reverseArray(int[] arr) {
    int start = 0;
    int end = arr.length-1;
@@ -19,6 +20,7 @@ public static void reverseArray(int[] arr) {
    }
 }
 
+
 /*
 2). Recursive way:
  Change the definition of func in recursive form:
@@ -30,6 +32,6 @@ public static void reverseArray(int[] arr) {
   reverseArray(int[] arr, start+1, end-1);
   }
   */
-  
+}
   
   
